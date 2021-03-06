@@ -6,3 +6,6 @@ body{
     min-height: 100vh;
     
 }
+#favicon:hover {
+	transform: scale(2);
+}
