@@ -43,6 +43,7 @@ section {
     align-items: center;
     flex-direction: column;
   }
+
 #favicon:hover {
 	transform: scale(2);
 }
