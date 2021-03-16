@@ -8,6 +8,7 @@ const lightColor = 'rgb(255 255 255 / 50%)';
 const darkColor = 'rgb(0 0 0 / 50%)';
 let modeIcon = toggleIcon.children[1].classList;
 
+
 // Function mode selection
 function modeSelection(color){
     document.documentElement.setAttribute('data-theme', `${color}`);
@@ -21,6 +22,7 @@ function modeSelection(color){
     (color === 'light')? modeIcon = "fas fa-sun" : modeIcon = "fas fa-moon"  
 }
 
+
 // Switch theme dynamically
 function switchTheme(event) {
     console.log(event.target.checked);
@@ -28,6 +30,7 @@ function switchTheme(event) {
 }
 
 toggleSwitch.addEventListener('change', switchTheme);
+
 
 //  Check local storage for theme
 const currentTheme = localStorage.getItem('theme');
