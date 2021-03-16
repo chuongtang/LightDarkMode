@@ -19,7 +19,7 @@ function modeSelection(color){
         document.getElementById('image'+i).src=`img/${i}_${color}.svg`;    
     }
     (color === 'light')? textBoxColor = darkColor : textBoxColor = lightColor;  
-    (color === 'light')? modeIcon = "fas fa-sun" : modeIcon = "fas fa-moon"  
+    (color === 'light')? modeIcon = "fas fa-sun" : modeIcon = "fas fa-moon" ; 
 }
 
 
