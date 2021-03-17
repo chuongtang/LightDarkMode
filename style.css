@@ -44,9 +44,7 @@ section {
     flex-direction: column;
   }
 
-#favicon:hover {
-	transform: scale(2);
-}
+#favicon:hover {transform: scale(2);}
 h1 {
     font-size: 100px;
     margin-bottom: 0;
@@ -85,14 +83,10 @@ h1 {
   }
   
   /* Home Section */
-  .title-group {
-    text-align: center;
-  }
+  .title-group { text-align: center; }
   
   /* About Section */
-  .about-container {
-    display: flex;
-  }
+  .about-container { display: flex;}
   
   .image-container {
     border: 1px solid var(--secondary-color);
@@ -131,18 +125,14 @@ h1 {
     cursor: default;
   }
   
-  button:hover:not(.outline) {
-    filter: brightness(110%);
-  }
+  button:hover:not(.outline) {filter: brightness(110%); }
   
   .primary {
     background: var(--primary-color);
     color: var(--on-primary);
   }
   
-  .secondary {
-    border: 2px solid var(--secondary-color);
-  }
+  .secondary { border: 2px solid var(--secondary-color); }
   
   .secondary,
   .secondary:hover,
@@ -151,15 +141,9 @@ h1 {
     color: var(--on-primary);
   }
   
-  .outline {
-    background: var(--background);
-    color: var(--on-background);
-  }
+  .outline { background: var(--background); color: var(--on-background);}
   
-  .outline:hover {
-    background: var(--primary-color);
-    color: var(--on-primary);
-  }
+  .outline:hover { background: var(--primary-color); color: var(--on-primary);}
   
   .text-box {
     width: 40%;
@@ -170,10 +154,7 @@ h1 {
     padding: 30px;
   }
   
-  p {
-    margin: 0;
-    line-height: 25px;
-  }
+  p { margin: 0; line-height: 25px; }
   
   /* Contact Section */
   .fab{
@@ -183,9 +164,7 @@ h1 {
     color: var(--primary-color);
   }
   
-  .fab:hover {
-    color: var(--on-background);
-  }
+  .fab:hover { color: var(--on-background);}
   
   /* Dark Mode Toggle */
   .theme-switch-wrapper {
@@ -197,10 +176,7 @@ h1 {
     top: 30px;
   }
   
-  .theme-switch-wrapper span {
-    margin-right: 10px;
-    font-size: 1rem;
-  }
+  .theme-switch-wrapper span {margin-right: 10px; font-size: 1rem; }
   
   .toggle-text {
     position: relative;
@@ -216,9 +192,7 @@ h1 {
     width: 60px;
   }
   
-  .theme-switch input {
-    display: none;
-  }
+  .theme-switch input {display: none;}
   
   .slider {
     background: #ccc;
@@ -242,23 +216,12 @@ h1 {
     width: 26px;
   }
   
-  input:checked + .slider {
-    background: var(--primary-color);
-  }
+  input:checked + .slider { background: var(--primary-color);}
   
-  input:checked + .slider::before {
-    transform: translateX(26px);
-  }
+  input:checked + .slider::before { transform: translateX(26px);}
   
-  .slider.round {
-    border-radius: 34px;
-  }
+  .slider.round {border-radius: 34px;}
   
-  .slider.round::before {
-    border-radius: 50%;
-  }
+  .slider.round::before {border-radius: 50%;}
   
-  .fas {
-    font-size: 30px;
-    margin-right: 5px;
-  }
+  .fas {font-size: 30px; margin-right: 5px;}
