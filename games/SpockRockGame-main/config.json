@@ -1,0 +1,64 @@
+{
+  "name": "rpsgame",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "c82f1ec71a2c9e5af8b00fe5fe27f57e",
+      "css": "rock",
+      "code": 62037,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "abf08be829659c02d1f9a711daefa8ce",
+      "css": "paper",
+      "code": 62038,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "dd0acda8a6217fd10e94d4feadccd90f",
+      "css": "scissors",
+      "code": 62039,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "0eb9a32706e05e4f9f2561aa1bfbb7e9",
+      "css": "lizard-",
+      "code": 62040,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "7a8becfd21312643b7be5463583e7425",
+      "css": "spock",
+      "code": 62041,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "142263941b9f4cd4b2b84f1f4cd13b1d",
+      "css": "you",
+      "code": 59396,
+      "src": "fontelico"
+    },
+    {
+      "uid": "98687378abd1faf8f6af97c254eb6cd6",
+      "css": "computer",
+      "code": 59392,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "3bd18d47a12b8709e9f4fe9ead4f7518",
+      "css": "reset",
+      "code": 59393,
+      "src": "entypo"
+    },
+    {
+      "uid": "3ccaec0f82abb6c57aa6fc8feeba9f45",
+      "css": "laptop",
+      "code": 59394,
+      "src": "elusive"
+    }
+  ]
+}
