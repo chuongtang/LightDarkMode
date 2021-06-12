@@ -1,4 +1,4 @@
-## LightDarkMode 🌞  🌜
+## LightDarkMode 🌞  🌜  for the Hackathon 
 To build a switch  🔲 which toggles between light :light and dark 🌃 mode on the web page
 
 **Credit to great resources I used:**  🧩
