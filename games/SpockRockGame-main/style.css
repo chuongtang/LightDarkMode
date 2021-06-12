@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
-html { box-sizing: border-box; }
+html { box-sizing: border-box;
+  overflow-y: hidden; }
 
 .rookie {position: fixed; top: 5px; left: 15px;}
 #favicon:hover { transform: scale(2);}
@@ -13,6 +14,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+  height: 100%;
 }
 
 .game-container {
