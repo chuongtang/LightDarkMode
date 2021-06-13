@@ -151,15 +151,15 @@ h1 {
   .outline:hover { background: var(--primary-color); color: var(--on-primary);}
   
   .text-box {
-    width: 40%;
+    /* width: 40%; */
     text-align: justify;
     background: rgb(0 0 0 / 50%);
     color: var(--on-primary);
     border-radius: 10px;
-    padding: 30px;
+    padding: 10px;
   }
   
-  p { margin: 0; line-height: 25px; }
+  p { margin: 0; line-height: 15px; }
   
   /* Contact Section */
   .fab{
@@ -257,4 +257,11 @@ h1 {
       from, to { border-color: transparent }
       50% { border-color: orange; }
     }
-    #mapid { height: 60vh; }
+    iframe 
+{
+  margin: 0px; 
+ padding: 0px; 
+ height: 80vh;
+ width: 90vw; 
+ border: none;
+}
