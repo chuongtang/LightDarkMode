@@ -257,3 +257,4 @@ h1 {
       from, to { border-color: transparent }
       50% { border-color: orange; }
     }
+    #mapid { height: 60vh; }
