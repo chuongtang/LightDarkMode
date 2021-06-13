@@ -229,7 +229,7 @@ h1 {
   .fas {font-size: 30px; margin-right: 5px;}
 
   .td{
-    padding: 2rem;
+    padding: 0.5rem 2rem;
   }
   .typingText{
       overflow: hidden; /* Ensures the content is not revealed until the animation */
