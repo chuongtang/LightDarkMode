@@ -257,11 +257,28 @@ h1 {
       from, to { border-color: transparent }
       50% { border-color: orange; }
     }
-    iframe 
-{
-  margin: 0px; 
- padding: 0px; 
- height: 80vh;
- width: 90vw; 
- border: none;
+    iframe {
+margin: 0px; 
+padding: 0px; 
+height: 80vh;
+width: 90vw; 
+border: none;
+}
+#slideIn{
+  animation-duration: 16s;
+  animation-name: slidein;
+  /* animation-delay: 2s; */
+
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 0%;
+    width: 400%;
+  }
+
+  to {
+    margin-left: 100%;
+    width: 100%;
+  }
 }
