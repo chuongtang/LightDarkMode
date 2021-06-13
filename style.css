@@ -99,6 +99,9 @@ h1 {
     background: var(--background);
     box-shadow: var(--box-shadow);
   }
+  .image-container:hover{
+    transform: scale(1.3);
+  }
   
   img:not(#favicon) {
     height: 300px;
