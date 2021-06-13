@@ -87,14 +87,15 @@ h1 {
   .title-group { text-align: center; }
   
   /* About Section */
-  .about-container { display: flex;}
+  .about-container { display: flex; max-width: 99%;}
   
   .image-container {
     border: 1px solid var(--secondary-color);
     border-radius: 10px;
-    padding: 10px 20px;
-    margin-right: 25px;
+    padding: 5px 10px;
+    margin: 1rem;
     width: auto;
+    text-align: center;
     background: var(--background);
     box-shadow: var(--box-shadow);
   }
