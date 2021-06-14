@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LightDarkMode</title>
+    <title>Hackathon</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
@@ -15,7 +15,14 @@
     <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#dde6ef">
     <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
 </head>
+
 <body>
     <!-- Dark mode switch -->
     <div class="theme-switch-wrapper">
@@ -25,75 +32,114 @@
         </span>
         <label class="theme-switch">
             <input type="checkbox">
-            <div class="slider round"></div>   
+            <div class="slider round"></div>
         </label>
     </div>
     <!-- Navigation -->
     <nav id="nav">
         <a href="#home">HOME</a>
-        <a href="#about">ABOUT</a>
-        <a href="#projects">PROJECTS</a>
-        <a href="#contact">CONTACT</a>
+        <a href="#about">GAME-zone🎲</a>
+        <a href="#projects">ART map 🎨</a>
+        <a href="#contact">Hackathoners🤠</a>
     </nav>
     <!-- Home section -->
     <section id="home">
-        <div class="title-group">
-            <h1>LIGHT DARK mode</h1>
-            <h2>A Javascript project by <img src="favicon-32x32.png" id='favicon'></h2>
+        <div class="title-group typingText">
+            <h2> Active living 👩‍🌾 and healthy mind is the great combination for quality life style.</h2>
+            <h2>Computer games can train your brain, open up new pathways of thought, and keep your mind a honed
+                edge</h2>
+            <h2>This hackathon site will introduce our simple but addictive games that keep your mind sharp and
+                motivated!</h2>
+            <h2>Just click the <b>GAME-zone</b> above ☝️ and start feeling young 👶 again!</h2>
         </div>
+        <h2 id="slideIn">䷷nd finally, the biggest part of Active Living : <i class="fab fa-autoprefixer"></i><i
+                class="fab fa-resolving"></i><i class="fab fa-tumblr"></i> <br>Check out our city <b>ART map 🎨</b></h2>
     </section>
 
     <!-- About section -->
     <section id="about">
-        <h1>Undraw Illustration</h1>
+        <h1>Set of games- Choose one</h1>
         <div class="about-container">
             <div class="image-container">
-                <h2>By The Road - Patrick [Joke machine] </h2>
-                <img src="img/1_light.svg" alt="ByTheRoadL" id='image1'>
+                <a href="games/jokeMachine/JokeMachine-main/JokeMachine-main/index.html" target="_blank">
+                    <h2>Joke machine 🤣 </h2>
+                    <img src="img/1_light.svg" alt="ByTheRoadL" id='image1'>
+                </a>
             </div>
             <div class="image-container">
-                <h2>Landscape Mode -- CHuong [Quote GEnerato]</h2>
+                <a href="games/quote-generator/index.html" target="_blank">
+                    <h2>Quote Generator 🌤️</h2>
+                </a>
                 <img src="img/2_light.svg" alt="LandScape" id='image2'>
             </div>
+
             <div class="image-container">
-                <h2>Organized Content  -- Osric [Math game]</h2>
-                <img src="img/3_light.svg" alt="OrganizeItem" id='image3'>
+                <a href="games/MathGame-main/index.html" target="_blank">
+                    <h2>Math Game 🤔</h2>
+                    <img src="img/3_light.svg" alt="OrganizeItem" id='image3'>
+                </a>
             </div>
+
             <div class="image-container">
-                <h2>Travelling together  -- Gary [Spock Rock Game]</h2>
-                <img src="img/4_light.svg" alt="Travelling" id='image4'>
+                <a href="games/SpockRockGame-main/index.html" target="_blank">
+                    <h2> Spock Rock Game ✌</h2>
+                    <img src="img/4_light.svg" alt="Travelling" id='image4'>
+                </a>
             </div>
         </div>
     </section>
 
-    <!-- Project Section -->
+    <!-- ART Section -->
     <section id="projects">
-        <h1>TEA API -- fetching tea info</h1>
-        <div class="butt">
-           <button class="primary">Primary</button>
-           <button class="secondary">Secondary</button>
-           <button class="primary" disabled>Disabled</button>
-           <button class="outline" outline>Alt outline</button>
-           <button class="outline" disabled>Disabled</button>
-        </div>
+     
         <div class="text-box" id="text-box">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, quia voluptates odio amet maxime incidunt, molestiae error sapiente explicabo non tempore repellendus animi nihil deserunt aliquam vel vitae maiores? Odio.</p>
+            <p>Art map for healthy mind</p>
         </div>
+        <iframe
+            src="https://thecityofcalgary.maps.arcgis.com/apps/Shortlist/index.html?appid=6e539458f16c48fba636454c16324b34"
+            frameborder="0"></iframe>
     </section>
 
     <!-- Contact Section -->
     <section id="contact">
-        <div class="social-icons">
-            <i class="fab fa-github"></i>
-            <i class="fab fa-linkedin"></i>
-            <i class="fab fa-discord"></i>
-            <i class="fab fa-codepen"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-canadian-maple-leaf"></i>
+        <div>
+            <h2> This web site was <i>hackathonally</i> built by following Hackathoners <i class="fab fa-redhat"></i>
+            </h2>
+            <h3 style="color: transparent;">spacer</h3>
+            <h2>
+                <table>
+                    <tr>
+                        <th>Name <i class="fab fa-black-tie"></i></i></th>
+                        <th>GitHub <i class="fab fa-github"></i></th>
+                        <th>LinkedIn <i class="fab fa-linkedin"></i></th>
+                    </tr>
+                    <tr>
+                        <td class="td">Osric Dhoubhadel</td>
+                        <td class="td">https://github.com/OsricDhoubhadel</td>
+                        <td class="td">https://www.linkedin.com/in/osric-dhoubhadel/</td>
+                    </tr>
+                    <tr>
+                        <td class="td">Patrick Osaje</td>
+                        <td class="td">https://github.com/patosaxing</td>
+                        <td class="td"></td>
+                    </tr>
+                    <tr>
+                        <td class="td">Gary Hagerty</td>
+                        <td class="td">https://github.com/gwhagerty</td>
+                        <td class="td">http://www.linkedin.com/in/gwhagerty/</td>
+                    </tr>
+                    <tr>
+                        <td class="td">Chuong Tang</td>
+                        <td class="td">https://github.com/chuongtang</td>
+                        <td class="td">https://linkedin.com/in/chuong-tang</td>
+                    </tr>
+                </table>
+            </h2>
         </div>
     </section>
-    
+
     <!--script  -->
     <script src="script.js"></script>
 </body>
+
 </html>

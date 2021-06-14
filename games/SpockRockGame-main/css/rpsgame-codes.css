@@ -1,0 +1,10 @@
+
+.icon-computer:before { content: '\e800'; } /* '' */
+.icon-reset:before { content: '\e801'; } /* '' */
+.icon-laptop:before { content: '\e802'; } /* '' */
+.icon-you:before { content: '\e804'; } /* '' */
+.icon-rock:before { content: '\f255'; } /* '' */
+.icon-paper:before { content: '\f256'; } /* '' */
+.icon-scissors:before { content: '\f257'; } /* '' */
+.icon-lizard-:before { content: '\f258'; } /* '' */
+.icon-spock:before { content: '\f259'; } /* '' */

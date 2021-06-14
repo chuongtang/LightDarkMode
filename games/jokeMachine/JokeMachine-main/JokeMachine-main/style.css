@@ -1,0 +1,18 @@
+html{ box-sizing: border-box;}
+body{margin: 0; background: white;}
+h3 { position: fixed; top: 5px; left: 5px;}
+.container{ height: 100vh; display: flex; flex-direction: column;  justify-content: center; align-items: center; background: url('./robot.gif'); background-repeat: no-repeat; background-size: contain; }
+#favicon:hover {transform: scale(2);}
+button{ cursor: pointer; outline: none; width: 280px; height: 40px; font-family: 'Courier New', Courier, monospace; font-size: 25px; color: whitesmoke; background: #47698A; border: none; border-radius: 5px;
+    box-shadow: 2px 2px 20px 10px rgba(0,0,0,0.2); }
+button:hover{ transform: scaleX(1.2);}
+button:active{ transform: scale(0.90);}
+button:disabled{ cursor: default; filter: brightness(30%);}
+.speech-bubble { box-sizing: border-box; top: 20px; position: relative; background: #D6DBDD; font-family: 'Courier New', 'Courier New', Courier, monospace;
+    padding: 20px; border-radius: 0.4em; max-width: 300px; }
+.speech-bubble:after { content: ''; position: absolute; left: 0; top: 50%; width: 0; height: 0; border: 24px solid transparent;  border-right-color: #D6DBDD; border-left: 0;  border-top: 0;
+    margin-top: -12px; margin-left: -24px; }
+@media screen and (max-width: 1000px){
+    .container{ background-size: cover; background-position: center center; }
+    bottom{ box-shadow: 5px 5px 30px 20px rgba(0,0,0,0.5); }
+}
