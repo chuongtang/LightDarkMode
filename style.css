@@ -265,7 +265,7 @@ width: 90vw;
 border: none;
 }
 #slideIn{
-  animation-duration: 16s;
+  animation-duration: 26s;
   animation-name: slidein;
   /* animation-delay: 2s; */
 
