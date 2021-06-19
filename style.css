@@ -9,7 +9,7 @@
     --on-background-alt: rgba(66, 66, 66, 0.7);
     --background: rgb(255, 255, 255);
     --box-shadow: 0 5px 20px 1px rgba(0, 0, 0, 0.5);
-    --image: url("./images/YenBG.png");
+    --image: url("./img/YenBG.png");
   }
   
   [data-theme="dark"] {
